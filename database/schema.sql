@@ -1,0 +1,1 @@
+-- PostgreSQL schema will be created during STEP 6.

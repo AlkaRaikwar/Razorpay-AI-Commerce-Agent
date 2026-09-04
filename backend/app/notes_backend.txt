@@ -1,0 +1,45 @@
+deliberately ek small working Agent skeleton banaya hai:
+User
+ ↓
+CommerceAgent
+ ↓
+Intent
+ ↓
+Planner
+ ↓
+Tool Registry
+ ↓
+search_products()
+ ↓
+Products
+
+
+
+
+
+
+
+
+
+
+
+next hum isi ko upgrade karenge:
+User
+ ↓
+Gemini
+ ↓
+Intent Understanding
+ ↓
+Tool Selection
+ ↓
+Tool Registry
+ ↓
+search_products()
+ ↓
+check_inventory()
+ ↓
+compare_products()
+ ↓
+recommendation
+
+Yahi point se hamara agent genuinely agentic hona start hoga.

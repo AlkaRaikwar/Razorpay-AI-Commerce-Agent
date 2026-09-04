@@ -1,0 +1,9 @@
+[
+  {
+    "id": "shoe-001",
+    "name": "ProRun X1",
+    "category": "running shoes",
+    "price": 1699,
+    "stock": 20
+  }
+]
