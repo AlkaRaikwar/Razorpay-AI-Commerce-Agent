@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 
 from app.agent.agent import CommerceAgent
-
+from fastapi.middleware.cors import CORSMiddleware
 from app.tools.payment_tools import (
     create_payment_order,
     verify_payment_signature,
@@ -19,7 +19,13 @@ app = FastAPI(
     title="Razorpay AI Commerce Agent",
     version="0.1.0",
 )
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 agent = CommerceAgent()
 
 
