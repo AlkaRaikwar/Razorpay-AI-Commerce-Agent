@@ -1,3 +1,9 @@
+## System Dataflow
+
+![Razorpay AI Commerce Agent - System Dataflow](problem.png)
+![Razorpay AI Commerce Agent - System Dataflow](agent_workflow.png)
+![Razorpay AI Commerce Agent - System Dataflow](agent_architecture.png)
+
 # Razorpay AI Commerce Agent
 
 AI-powered commerce agent built for the Razorpay AI Builder Internship 2026 — Track 1: AI Growth & Agentic Commerce.
